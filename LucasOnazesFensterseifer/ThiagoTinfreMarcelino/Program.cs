@@ -5,10 +5,19 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDataContext>();
+
+builder.Services.AddCors(
+    options => options.AddPolicy("Total Acess",
+        configs => configs
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod())
+);
+
 var app = builder.Build();
 
 // Home Route - Test if the application is running
-app.MapGet("/", () => "API de Lista de Tarefas");
+app.MapGet("/", () => "To do API");
 
 
 // Create Funcionario
@@ -111,4 +120,5 @@ app.MapGet("/api/folha/buscar/{cpf}/{mes}/{ano}", ([FromServices] AppDataContext
     return Results.NotFound("Folha não encontrada");
 });
 
+app.UseCors("Total Acess");
 app.Run();

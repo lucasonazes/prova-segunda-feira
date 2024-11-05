@@ -126,3 +126,4 @@ C:\Users\autologon\Documents\prova-segunda-feira\LucasOnazesFensterseifer\Thiago
 C:\Users\autologon\Documents\prova-segunda-feira\LucasOnazesFensterseifer\ThiagoTinfreMarcelino\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\autologon\Documents\prova-segunda-feira\LucasOnazesFensterseifer\ThiagoTinfreMarcelino\obj\Debug\net8.0\ThiagoTinfreMarcelino.csproj.AssemblyReference.cache
 C:\Users\autologon\Documents\prova-segunda-feira\LucasOnazesFensterseifer\ThiagoTinfreMarcelino\obj\Debug\net8.0\ThiagoTinfreMarcelino.csproj.CopyComplete
+C:\Users\autologon\Documents\prova-segunda-feira\LucasOnazesFensterseifer\ThiagoTinfreMarcelino\obj\Debug\net8.0\ThiagoTinfreMarcelino.sourcelink.json
